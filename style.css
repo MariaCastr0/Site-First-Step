@@ -222,23 +222,25 @@ p {
 /* SOBRE */
 
 #sobre{
-    
-	margin: auto;
+    margin: auto;
 	padding: 50px 0;
 }
 
 #sobre-c{
-    display: flex;
+    display: table-cell;
 	flex-wrap: wrap;
 	align-items: center;
+    max-width: 300px;
 }
 
 #sobre-c_texto{
+    display: table-cell;
     flex: 6 1 160;
 }
 
 #sobre-c_img{
     flex: 1 1 350px;
+
 }
 
 
