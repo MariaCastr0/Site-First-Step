@@ -10,6 +10,14 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+hr {
+	border: none;
+	background-color: var(--clr-pink-dark);
+	height: 2px;
+	width: 140px;
+	margin: 20px auto;
+}
+
 /* TYPOGRAFIA */
 
 h1,h2,h3,h4,h5,h6 {
@@ -214,13 +222,23 @@ p {
 /* SOBRE */
 
 #sobre{
-    position: relative;
+    
+	margin: auto;
+	padding: 50px 0;
 }
 
-#sobre h3{
-    font-size: 14px;
-    letter-spacing: 12px;
-    text-transform: uppercase;
+#sobre-c{
+    display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+#sobre-c_texto{
+    flex: 6 1 160;
+}
+
+#sobre-c_img{
+    flex: 1 1 350px;
 }
 
 
