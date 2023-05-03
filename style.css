@@ -116,7 +116,7 @@ p {
     background: #E1D1FF;
 }
 
-#sobre, #materias,
+#sobre, #oferecemos,
 #canais, #sugest, footer {
     background: #ffffff;
 }
@@ -144,7 +144,7 @@ p {
 
 .navbar .navbar-nav .nav-link:hover{
     background: transparent;
-    color: #fff;
+    color: #935ff3;
 }
 
 .navbar .navbar-nav .nav-link::after{
@@ -159,8 +159,8 @@ p {
 .navbar .navbar-nav .nav-link:hover::after{
 
     width: 100%;
-    background: #fff;
-    color: #fff;
+    background: #935ff3;
+    color: #935ff3;
 }
 
 /* HOME */
@@ -245,9 +245,9 @@ p {
 
 
 
-/* MATERIAS */
+/* O QUE OFERECEMOS */
 
-#materias .materias-item{
+#oferecemos .oferecemos-item{
     position: relative;
     overflow: hidden;
     margin-bottom: 25px;
@@ -258,7 +258,7 @@ p {
 
 
 
-#materias .materias-item .materias-overlay{
+#oferecemos .oferecemos-item .oferecemos-overlay{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -272,21 +272,21 @@ p {
 }
 
 
-#materias .materias-item:hover .materias-overlay {
+#oferecemos .oferecemos-item:hover .oferecemos-overlay {
     opacity: 1;
 }
 
-#materias .materias-item .materias-overlay .materias-info{
+#oferecemos .oferecemos-item .oferecemos-overlay .oferecemos-info{
     padding: 12em 0;
 }
 
-.materias-info h1{
+.oferecemos-info h1{
     color: #fff;
     margin: 0;
 }
 
 
-.materias-info h3{
+.oferecemos-info h3{
     color: #d9d9d9;
     margin-top: 0;
     font-size: 14px;
@@ -294,11 +294,11 @@ p {
 }
 
 
-.materias-item img{
+.oferecemos-item img{
     transition: all ease-in-out 0.4s;
 }
 
-.materias-item:hover img{
+.oferecemos-item:hover img{
     transform: scale(1.1);
 }
 
