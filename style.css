@@ -117,7 +117,7 @@ p {
 }
 
 #sobre, #oferecemos,
-#canais, #sugest, footer {
+#cursos, #newsletter, footer {
     background: #ffffff;
 }
 
@@ -308,7 +308,7 @@ p {
 body{
     font-family: ;
 }
-#canais{
+#cursos{
     padding: 30px 0;
 }
 .sec-heading h6{
@@ -348,7 +348,7 @@ body{
     padding: 10px 35px;
     border-radius: 4px;
 }
-.canais-slider .owl-dots{
+.cursos-slider .owl-dots{
     position: absolute;
     left: 0;
     right: 0;
@@ -356,7 +356,7 @@ body{
     text-align: center;
     width: 100%;
 }
-.canais-slider button.owl-dot{
+.cursoss-slider button.owl-dot{
     width: 16px;
     height: 16px;
     display: inline-block;
@@ -365,7 +365,7 @@ body{
     border-radius: 50%;
     background-color: #262626;
 }
-.canais-slider button.owl-dot.active{
+.cursos-slider button.owl-dot.active{
     background-color: #935ff3;
 }
 .move-animation{
@@ -385,16 +385,16 @@ body{
     }
 }
 
-/* SUGEST - SUGESTÕES */
+/* NEWSLETTER */
 
-#sugest {
+#newsletter {
     background: url(images/contato.png) 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
     position: relative;
 }
 
-#sugest .form-control{
+#newsletter .form-control{
     border: none;
     box-shadow: none;
     font-size: 18px;
@@ -402,11 +402,11 @@ body{
     margin-bottom: 9px;
 }
 
-#sugest .form-control:focus {
+#newsletter .form-control:focus {
     border-color: #d9d9d9;
 }
 
-#sugest input{
+#newsletter input{
     height: 48px;
     line-height: 40px;
 }
