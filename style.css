@@ -297,7 +297,7 @@ p {
 }
 
 
-/* CANAIS */
+/* CURSOS */
 
 body{
     font-family: ;
@@ -325,7 +325,7 @@ body{
 }
 .img-area img{
     margin: 0 auto;
-    transition: all 0.5s ease;
+    transition: all 0.8s ease;
     max-width: 230px;
 }
 .single-box:hover img{
@@ -337,7 +337,7 @@ body{
 .info-area a{
     display: inline-block;
     margin: 25px 0 0;
-    background-color: rgb(158, 57, 32);
+    background-color: #935ff3;
     color: #fff;
     padding: 10px 35px;
     border-radius: 4px;
@@ -360,7 +360,7 @@ body{
     background-color: #262626;
 }
 .canais-slider button.owl-dot.active{
-    background-color: coral;
+    background-color: #935ff3;
 }
 .move-animation{
     position: relative;
